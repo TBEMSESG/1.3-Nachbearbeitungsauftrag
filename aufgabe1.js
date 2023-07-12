@@ -14,7 +14,6 @@ function reverse() {
   );
 
   res.textContent = `${newWord}`;
-  return;
 }
 
 // call reverse function with any string as argument.
