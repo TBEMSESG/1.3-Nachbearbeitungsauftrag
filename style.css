@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  border: 1px solid black;
+  background-color: #ffe6b7;
+  width: 50%;
+}
