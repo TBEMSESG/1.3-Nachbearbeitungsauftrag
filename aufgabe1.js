@@ -7,8 +7,9 @@ function reverse(word) {
   }
 
   console.log(
-    `The sting initially was: ${word}. This function changed the string to: ${newWord}`
+    `The sting initially was: ${word}. This function changed the string to:  ${newWord}`
   );
 }
 
+// call reverse function with any string as argument.
 reverse("javascript");
