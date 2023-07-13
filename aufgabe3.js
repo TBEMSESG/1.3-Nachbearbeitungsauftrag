@@ -10,15 +10,15 @@ function istPangramm() {
     let char = true;
     char = wordsmall.includes(alphabet[i]);
     if (char == false) {
-      res3.textContent = `the letter "${alphabet[i]}" is not in "${word3}". Sorry, not a Pangramm`;
+      res3.textContent = `Sorry,kein Pangramm. Mindestens "${alphabet[i]}" ist nicht in  "${word3}" vorhanden.`;
       console.log(
-        `the letter "${alphabet[i]}" is not in "${word3}". Sorry, not a Pangramm`
+        `Sorry,kein Pangramm. Mindestens "${alphabet[i]}" ist nicht in  "${word3}" vorhanden.`
       );
       return;
     }
   }
-  res3.textContent = `YESSSS!!!! The string "${word3}" is a Pangramm !!`;
-  console.log(`YESSSS!!!! The string "${word3}" is a Pangramm !!`);
+  res3.textContent = `YESSSS!!!! Der Satz "${word3}" ist ein Pangramm !!`;
+  console.log(`YESSSS!!!! Der Satz "${word3}" ist ein Pangramm !!`);
 }
 
 // istPangramm("The quick brown fox jumps over the lazy dog");
